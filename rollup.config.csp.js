@@ -20,6 +20,6 @@ const config = (input, file, format) => ({
 });
 
 export default [
-    config('src/index.js', 'dist/mapbox-gl-csp.js', 'umd'),
-    config('src/source/worker.js', 'dist/mapbox-gl-csp-worker.js', 'iife')
+    config('src/index.js', 'dist/vietmap-gl-csp.js', 'umd'),
+    config('src/source/worker.js', 'dist/vietmap-gl-csp-worker.js', 'iife')
 ];

@@ -7,8 +7,8 @@ const {BUILD, MINIFY} = process.env;
 const minified = MINIFY === 'true';
 const production = BUILD === 'production';
 const outputFile =
-    !production ? 'dist/mapbox-gl-dev.js' :
-    minified ? 'dist/mapbox-gl.js' : 'dist/mapbox-gl-unminified.js';
+    !production ? 'dist/vietmap-gl-dev.js' :
+    minified ? 'dist/vietmap-gl.js' : 'dist/vietmap-gl-unminified.js';
 
 export default [{
     // First, use code splitting to bundle GL JS into three "chunks":
