@@ -1,7 +1,7 @@
 {
   "name": "vietmaps-gl",
   "description": "A WebGL interactive maps library",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
   "main": "dist/vietmap-gl.js",
   "style": "dist/vietmap-gl.css",
   "license": "SEE LICENSE IN LICENSE.txt",
@@ -164,7 +164,7 @@
   },
   "files": [
     "build/",
-    "dist/mapbox-gl*",
+    "dist/vietmap-gl*",
     "dist/style-spec/",
     "flow-typed/*.js",
     "src/",
